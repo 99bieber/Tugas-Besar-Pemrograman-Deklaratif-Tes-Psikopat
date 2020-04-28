@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.homeController">
+   <children>
+      <TextField fx:id="username1" layoutX="43.0" layoutY="173.0" prefHeight="54.0" prefWidth="513.0" />
+      <Text layoutX="43.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Masukkan Nama" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="54.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="14.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selamat Datang Di Tes Psikopat">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="gosoal1" layoutX="44.0" layoutY="249.0" mnemonicParsing="false" onAction="#keSoal1" prefHeight="32.0" prefWidth="514.0" style="-fx-background-color: #1e90ff;" text="Masuk" textFill="WHITE" />
+   </children>
+</AnchorPane>
