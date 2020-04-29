@@ -41,7 +41,7 @@ public class homeController extends semuadata {
             Stage stage1 = new Stage();
             soal1Controller soal1Controller = loader.getController();
             soal1Controller.datakirim(usernamekirim, total_hasil);
-            stage1.setTitle("Tes Logika");
+            stage1.setTitle("Tes Psikopat");
             stage1.setScene(new Scene(root));
             stage1.show();
         } catch (IOException e) {

@@ -27,7 +27,7 @@
             <Font name="Arial Black" size="15.0" />
          </font>
       </Text>
-      <Text layoutX="62.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilih angka 1 - 10 Bebas" textAlignment="CENTER" wrappingWidth="477.4410095214844">
+      <Text layoutX="62.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilih angka 1 - 10 Bebas. Contoh 1,2,3,4,5" textAlignment="CENTER" wrappingWidth="477.4410095214844">
          <font>
             <Font size="19.0" />
          </font>
